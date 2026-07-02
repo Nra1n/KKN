@@ -1,0 +1,176 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin"
+  },
+  "dosen": [
+    {
+      "id": "d1",
+      "nama": "Dr. Ir. H. Ahmad Sudrajat, M.T.",
+      "nip": "197508122003121002",
+      "jabatan": "Dosen Pembimbing Lapangan",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%231e3a8a'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    }
+  ],
+  "anggota": [
+    {
+      "id": "a1",
+      "nama": "Naufal Rahisna",
+      "nim": "2105011001",
+      "jabatan": "Ketua Kelompok",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%232563eb'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    },
+    {
+      "id": "a2",
+      "nama": "Siti Aminah",
+      "nim": "2105011002",
+      "jabatan": "Sekretaris",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%230284c7'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    },
+    {
+      "id": "a3",
+      "nama": "Budi Santoso",
+      "nim": "2105011003",
+      "jabatan": "Bendahara",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%230f766e'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    },
+    {
+      "id": "a4",
+      "nama": "Rian Hidayat",
+      "nim": "2105011004",
+      "jabatan": "Divisi Humas",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%234f46e5'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    },
+    {
+      "id": "a5",
+      "nama": "Laila Fitriani",
+      "nim": "2105011005",
+      "jabatan": "Divisi Acara",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%230891b2'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    },
+    {
+      "id": "a6",
+      "nama": "Yusuf Al-Fatih",
+      "nim": "2105011006",
+      "jabatan": "Divisi Dokumentasi",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 100 100'><rect width='100%' height='100%' fill='%23059669'/><circle cx='50' cy='40' r='20' fill='%23ffffff'/><path d='M20,80 Q50,50 80,80 Z' fill='%23ffffff'/></svg>"
+    }
+  ],
+  "kegiatan": [
+    {
+      "id": "k1",
+      "nama": "Kerja Bakti Bersih Desa",
+      "lokasi": "Balai Desa Sukamaju",
+      "tanggal": "2026-06-25",
+      "jam": "08:00",
+      "deskripsi": "Membersihkan area sekitar Balai Desa Sukamaju bersama warga setempat untuk menciptakan lingkungan sehat dan asri.",
+      "status": "selesai",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%231e3a8a'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='8'>Kerja Bakti Desa</text></svg>",
+      "dokumentasi": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%2310b981'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='8'>Dokumentasi Kerja Bakti</text></svg>",
+      "tujuan": "Meningkatkan kebersihan lingkungan sekitar Balai Desa Sukamaju dan mempererat tali silaturahmi antar warga.",
+      "latarBelakang": "Area sekitar Balai Desa Sukamaju memerlukan peremajaan dan kebersihan ekstra demi menjaga kesehatan lingkungan desa dan kenyamanan pelayanan publik.",
+      "agenda": "1. Kumpul di Balai Desa pukul 08:00\n2. Pembagian wilayah kerja bakti\n3. Pembersihan selokan dan perapian taman\n4. Istirahat dan makan siang bersama",
+      "sasaran": "Seluruh area Balai Desa Sukamaju dan jalan utama sekitarnya.",
+      "apaYangDilakukan": "Warga melakukan gotong royong membersihkan sampah plastik, memotong rumput liar, mengeruk lumpur selokan, serta mengecat ulang pagar Balai Desa.",
+      "apaYangDihasilkan": "Lingkungan Balai Desa Sukamaju menjadi bersih, sehat, dan rapi. Pagar balai desa memiliki cat baru yang cerah.",
+      "dampakKegiatan": "Meningkatnya kepedulian masyarakat terhadap kebersihan, berkurangnya genangan air akibat saluran tersumbat, dan terciptanya iklim pelayanan publik yang lebih nyaman.",
+      "kesimpulanKegiatan": "Kegiatan berjalan sukses dengan partisipasi aktif dari 30 warga dan seluruh anggota kelompok KKN."
+    },
+    {
+      "id": "k2",
+      "nama": "Pelatihan Pembuatan Website Desa",
+      "lokasi": "Kantor Desa Sukamaju",
+      "tanggal": "2026-06-28",
+      "jam": "09:30",
+      "deskripsi": "Sosialisasi dan pelatihan pengelolaan website desa kepada perangkat desa agar mempermudah pelayanan digital.",
+      "status": "selesai",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%233b82f6'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='8'>Website Desa</text></svg>",
+      "dokumentasi": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%23059669'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='8'>Dokumentasi Pelatihan</text></svg>",
+      "tujuan": "Membekali perangkat desa dengan keterampilan praktis untuk memperbarui informasi dan memberikan pelayanan digital melalui website resmi.",
+      "latarBelakang": "Kurangnya pemahaman mengenai administrasi portal desa digital menghambat penyampaian berita dan transparansi informasi publik kepada masyarakat luar.",
+      "agenda": "1. Pembukaan oleh Kepala Desa\n2. Pengenalan dashboard admin CMS website\n3. Praktik penulisan berita & upload galeri\n4. Evaluasi & sesi tanya jawab",
+      "sasaran": "Sekretaris desa, kepala urusan umum, dan perwakilan staf pelayanan Desa Sukamaju.",
+      "apaYangDilakukan": "Menjelaskan konsep hosting, domain, dilanjutkan demo pengelolaan modul artikel dan dokumentasi desa menggunakan CMS khusus.",
+      "apaYangDihasilkan": "Staf desa memiliki akun editor masing-masing dan berhasil menerbitkan berita perdana tentang KKN.",
+      "dampakKegiatan": "Pelayanan surat-menyurat dan publikasi potensi desa sekarang dapat dilakukan secara lebih transparan dan cepat.",
+      "kesimpulanKegiatan": "Pelatihan berjalan lancar. Semua peserta kini mandiri dalam memperbarui konten portal desa."
+    },
+    {
+      "id": "k3",
+      "nama": "Sosialisasi Program Kerja KKN",
+      "lokasi": "Balai Desa Sukamaju",
+      "tanggal": "2026-07-10",
+      "jam": "13:30",
+      "deskripsi": "Pemaparan seluruh agenda program kerja KKN Kelompok kepada jajaran pemerintah desa dan perwakilan warga.",
+      "status": "akan datang",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%236366f1'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='8'>Sosialisasi Proker</text></svg>",
+      "tujuan": "Menyelaraskan rencana program kerja mahasiswa KKN dengan kebutuhan riil pemerintah desa dan warga.",
+      "latarBelakang": "Koordinasi awal sangat krusial untuk memastikan seluruh program kerja KKN mendapat dukungan penuh dan berjalan sejalan dengan RPJM Desa Sukamaju.",
+      "agenda": "1. Presentasi usulan program kerja per divisi\n2. Sesi diskusi, masukan, dan saran dari kepala desa\n3. Penentuan jadwal kolaborasi kegiatan",
+      "sasaran": "Kepala Desa Sukamaju, jajaran Kepala Dusun, Ketua RT/RW, dan tokoh pemuda Karang Taruna."
+    },
+    {
+      "id": "k4",
+      "nama": "Penyuluhan Kesehatan & Stunting",
+      "lokasi": "Posyandu Sukamaju",
+      "tanggal": "2026-07-15",
+      "jam": "09:00",
+      "deskripsi": "Edukasi kesehatan ibu dan anak, serta pencegahan stunting melalui asupan gizi seimbang.",
+      "status": "akan datang",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%230ea5e9'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='8'>Penyuluhan Kesehatan</text></svg>",
+      "tujuan": "Meningkatkan kesadaran ibu hamil dan menyusui mengenai pola asuh anak demi menekan angka stunting.",
+      "latarBelakang": "Desa Sukamaju memiliki beberapa kasus anak dengan indikasi tumbuh kembang lambat akibat kurangnya edukasi gizi mikro harian.",
+      "agenda": "1. Pemeriksaan tinggi/berat badan bayi gratis\n2. Ceramah interaktif oleh Ahli Gizi Puskesmas\n3. Demo memasak MPASI bernutrisi tinggi dan ekonomis\n4. Pembagian paket sembako dan vitamin anak",
+      "sasaran": "Ibu hamil, ibu menyusui, serta kader Posyandu Melati Desa Sukamaju."
+    }
+  ],
+  "profil_desa": {
+    "id": "p1",
+    "nama_desa": "Desa Sukamaju",
+    "kecamatan": "Kecamatan Sukasari",
+    "kabupaten": "Kabupaten Bandung",
+    "provinsi": "Jawa Barat",
+    "alamat": "Jl. Raya Sukamaju No.10",
+    "latitude": "-6.7845",
+    "longitude": "107.6412",
+    "link_maps": "https://maps.google.com/?q=-6.7845,107.6412",
+    "gambar_peta": "/uploads/peta/peta_desa.jpg"
+  },
+  "dokumentasi": [
+    {
+      "id": "doc1",
+      "kegiatan_id": "k1",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%23047857'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='6'>Foto 1: Kerja Bakti Lapangan</text></svg>",
+      "keterangan": "Warga berkumpul di depan balai desa bersiap memulai kerja bakti.",
+      "created_at": "2026-06-25T08:30:00Z"
+    },
+    {
+      "id": "doc2",
+      "kegiatan_id": "k1",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%23059669'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='6'>Foto 2: Pembersihan Selokan</text></svg>",
+      "keterangan": "Pembersihan selokan air agar lancar saat hujan.",
+      "created_at": "2026-06-25T09:15:00Z"
+    },
+    {
+      "id": "doc3",
+      "kegiatan_id": "k1",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%2310b981'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='6'>Foto 3: Hasil Pembersihan</text></svg>",
+      "keterangan": "Lingkungan sekitar balai desa yang bersih dan rapi.",
+      "created_at": "2026-06-25T11:00:00Z"
+    },
+    {
+      "id": "doc4",
+      "kegiatan_id": "k2",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%231e40af'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='6'>Foto 1: Teori Pembuatan Web</text></svg>",
+      "keterangan": "Penyampaian materi teoritis pembuatan website desa.",
+      "created_at": "2026-06-28T10:00:00Z"
+    },
+    {
+      "id": "doc5",
+      "kegiatan_id": "k2",
+      "foto": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 150 100'><rect width='100%' height='100%' fill='%232563eb'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='6'>Foto 2: Praktik Input Data</text></svg>",
+      "keterangan": "Perangkat desa mencoba secara mandiri menginputkan berita.",
+      "created_at": "2026-06-28T11:30:00Z"
+    }
+  ]
+}
