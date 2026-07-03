@@ -7,7 +7,49 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- App bootstrap: try to load source module if available (dev with Vite).
+         If the raw /src/main.tsx is not accessible (for example when serving static files
+         without running Vite or without building), show a helpful message. -->
+    <script>
+      (async function () {
+        const root = document.getElementById('root');
+        try {
+          // Probe whether the dev module is available
+          const res = await fetch('/src/main.tsx', { method: 'GET' });
+          if (res.ok) {
+            // Development mode (Vite) — load the module normally
+            const s = document.createElement('script');
+            s.type = 'module';
+            s.src = '/src/main.tsx';
+            document.body.appendChild(s);
+          } else {
+            // Not available — provide instructions to the user/deployer
+            root.innerHTML = `
+              <div style="padding:24px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#0f172a;max-width:900px;margin:40px auto;border-radius:8px;background:#f8fafc;border:1px solid #e2e8f0">
+                <h2 style="margin:0 0 8px;font-size:18px">Aplikasi gagal dimuat</h2>
+                <p style="margin:0 0 6px">Browser tidak dapat memuat modul sumber aplikasi (<code>/src/main.tsx</code>).</p>
+                <p style="margin:0 0 6px">Jika Anda sedang melakukan pengembangan lokal, jalankan:</p>
+                <pre style="background:#fff;padding:8px;border-radius:6px;border:1px solid #e6eef7">npm install
+npm run dev</pre>
+                <p style="margin:0 0 6px">Jika Anda men-deploy ke produksi (hosting statis), jalankan build dan deploy folder <code>dist/</code>:</p>
+                <pre style="background:#fff;padding:8px;border-radius:6px;border:1px solid #e6eef7">npm install
+npm run build
+# lalu deploy isi folder dist/ ke hosting Anda</pre>
+                <p style="margin-top:8px;color:#475569"><strong>HTTP:</strong> ${res.status} ${res.statusText}</p>
+              </div>
+            `;
+          }
+        } catch (err) {
+          root.innerHTML = `
+            <div style="padding:24px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#0f172a;max-width:900px;margin:40px auto;border-radius:8px;background:#fff4f4;border:1px solid #fee2e2">
+              <h2 style="margin:0 0 8px;font-size:18px">Gagal memuat aplikasi</h2>
+              <p style="margin:0">Ada kesalahan saat mencoba memuat modul aplikasi. Pastikan Vite dev server sedang berjalan, atau build terlebih dahulu untuk produksi.</p>
+              <pre style="margin-top:8px;background:#fff;padding:8px;border-radius:6px;border:1px solid #f5f5f5">${String(err)}</pre>
+            </div>
+          `;
+        }
+      })();
+    </script>
   </body>
 </html>
-
